@@ -124,7 +124,6 @@
 
 .flower-child{
   width: 50%;
- 
   margin-left:60px ;
  
 }
@@ -132,7 +131,6 @@
    font-family: "Noto Serif", serif;
    font-size: 3.1rem;
    font-weight: bold;
-   
 }
 
   .flower-child>li{
@@ -140,8 +138,25 @@
  font-size: 1.2rem;
  color:rgba(0, 0, 0, 0.493) ;
  margin-top: 20px;
- height: 108px;
+
   }
+
+
+.badge{
+  width:286px ;
+  height: 286px;
+  position: relative;
+  margin-top: -728px;
+  margin-left: 350px;
+}
+.badge-img{
+  width: 100%;
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {
   .nav-child-2 {
     display: none;
@@ -179,4 +194,41 @@
 .flower-img>img{
   width:100%;
 }
+
+
+.flower-titel{
+   font-family: "Noto Serif", serif;
+   font-size: 24px;
+   font-weight: bold;
+   
+}
+
+  .flower-child>li{
+ font-family: "Inter", sans-serif;
+ font-size: 1.2rem;
+ color:rgba(0, 0, 0, 0.493) ;
+  }
+
+
+.flower-child{
+  width: 100%;
+  margin-left:0px ;
+}
+
+
+.badge{
+  display: none;
+  width:286px ;
+  height: 286px;
+  position: relative;
+  margin-top: -728px;
+  margin-left: 350px;
+}
+.badge-img{
+  width: 100%;
+  display: none;
+}
+
+
+
 }
