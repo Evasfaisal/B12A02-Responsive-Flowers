@@ -184,12 +184,14 @@
   border-radius: 14px;
   margin-bottom: 25px;
   color: rgb(255, 255, 255);
+ 
 }
 .deals-banner-child-2 {
   width: 367px;
   background-image: url(./assets/deal-ana.png);
   height: 200px;
   border-radius: 14px;
+    color: rgb(255, 255, 255);
 }
 
 .deals-banner-right {
@@ -199,6 +201,7 @@
   border-radius: 22px;
   background-size: cover;
   margin-left: 28px;
+    color: rgb(255, 255, 255);
 }
 
 .color-opacity {
@@ -214,7 +217,8 @@
   height: 423px;
   width: 100%;
   border-radius: 22px;
-  display: inline-block;
+   justify-content: center;
+  align-items: center;
 }
 
 .deals-heading {
@@ -226,6 +230,30 @@
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
+
+.deals-heading-right{
+font-family: "Noto Serif", serif;
+font-size: 2.6rem;
+font-weight:bold;
+}
+
+.deals-heading-right-2{
+  font-size: 1.4rem;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+}
+
+
+.deals-field {
+  text-align: center;
+  width: 100%;
+  margin-top: 51px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .nav-child-2 {
@@ -294,4 +322,34 @@
     width: 100%;
     display: none;
   }
+
+.deals-banner-parent {
+  display: block;
+  margin-left: 15px;
+}
+
+
+
+.deals-banner-right{
+width: 367px;
+height: 200px;
+margin-left: 0px;
+margin-top: 20px;
+}
+
+
+.color-opacity-2 {
+  background: #0000006b;
+width: 367px;
+height: 200px;
+  border-radius: 14px;
+   justify-content: center;
+  align-items: center;
+}
+
+.deals-field {
+  text-align: center;
+  width: 393px;
+  margin-top: 130px;
+}
 }
